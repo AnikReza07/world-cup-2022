@@ -107,41 +107,110 @@
   color: white;
 }
 /* Blog section */
-.blog-section{
+.artical-blog-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
-.blog-content{
-  box-shadow: 0px 1px 10px gray;
+.blog-section-content {
+  box-shadow: 0px 1px 10px grey;
   border-radius: 10px;
 }
-.blog-content img{
+.blog-section-content img {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   transition: 0.2s;
 }
 .blog-section-content img:hover{
   width: 100%;
   padding: 0px;
 }
-.blog-write-content{
+.blog-write-content {
   padding: 10px;
 }
-.blog-content .blog-button{
+.blog-section-content .blog-button {
   padding: 3px 20px;
   border-radius: 5px;
   border: 1px solid gray;
 }
-.blog-footer-item{
+.blog-footer-item {
   font-size: 15px;
   padding-bottom: 5px;
 }
-.blog-footer-item .fa-clock{
+.blog-footer-item .fa-clock {
   padding-right: 5px;
 }
-.blog-footer-item .fa-comment-alt{
+.blog-footer-item .fa-comment-alt {
   padding-left: 20px;
   padding-right: 5px;
 }
-/* Blog Section End */
+/* Blog Section end */
+
+/*------------------
+ view all buttton for responsive
+----------------- */
+.view-all-button{
+  display: none;
+  margin-top: 20px;
+}
+.all-blog-item-button {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  background: brown;
+  border-radius: 30px;
+  padding-top: 10px;
+
+}
+.all-blog-item-button a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+/* footer Section  */
+.footer-section {
+  margin-top: 30px;
+  text-align: center;
+  background: #000000;
+  color: #ffffff;
+}
+.footer-section h1 {
+  padding: 80px 0 50px;
+}
+.footer-line {
+  width: 80%;
+  margin: 0 auto;
+  opacity: 0.2;
+  margin-bottom: 50px;
+}
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.footer-menu a {
+  margin: 0 20px;
+  color: #ada9a9;
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color: white;
+}
+.footer-social-icon {
+  padding-bottom: 25px;
+}
+.footer-social-icon a {
+  margin: 0 10px;
+  padding: 6px 9px;
+  border-radius: 50%;
+  background: rgb(49, 47, 47);
+  font-size: 15px;
+  color: #b3b3b3;
+}
+.footer-social-icon a:hover{
+  background-color: white;
+  color: #161616;
+}
